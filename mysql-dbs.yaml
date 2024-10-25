@@ -5,8 +5,8 @@ metadata:
   name: mysql
 spec:
   selector:
-     matchlabels:
-       app: mysql
+    labels:
+      app: mysql
   strategy:
     type: Recreate
   template:
